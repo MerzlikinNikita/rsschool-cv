@@ -34,3 +34,7 @@ function multiply(a, b){
   return a * b
 }
 ```
+
+## Experience
+
+[CV](https://MerzlikinNikita.github.io/rsschool-cv/cv) - первый проект :)
