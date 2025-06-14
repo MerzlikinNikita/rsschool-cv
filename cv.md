@@ -38,3 +38,9 @@ function multiply(a, b){
 ## Experience
 
 [CV](https://MerzlikinNikita.github.io/rsschool-cv/cv) - первый проект :)
+
+## Education
+
+- **2023 Omsk State Technical University**
+  - _Information Technology and Computer Systems_
+- **2025 Python for beginners on stepik.org**
