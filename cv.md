@@ -37,10 +37,16 @@ function multiply(a, b){
 
 ## Experience
 
-[CV](https://MerzlikinNikita.github.io/rsschool-cv/cv) - первый проект :)
+[CV](https://MerzlikinNikita.github.io/rsschool-cv/cv) - My first project :) - [GitHub code](https://github.com/MerzlikinNikita/rsschool-cv/tree/main)
 
 ## Education
 
-- **2023 Omsk State Technical University**
-  - _Information Technology and Computer Systems_
-- **2025 Python for beginners on stepik.org**
+**University:**
+
+- _Omsk State Technical University, Information Technology and Computer Systems_
+
+**Courses:**
+
+- [_Python for beginners (completed)_](https://stepik.org/course/58852/syllabus)
+- [_Modern JavaScript Tutorial (in progress)_](https://learn.javascript.ru/)
+- [_RS School JS / Front-end Pre-school RU Course_](https://rs.school/courses/javascript-preschool-ru)
