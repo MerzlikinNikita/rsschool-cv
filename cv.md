@@ -2,6 +2,8 @@
 
 # Merzlikin Nikita
 
+![My profile foto](assets/img/my-profile-foto.jpg)
+
 ## Contact Information
 
 - **Telegram:** [Nikita M](https://t.me/Polnyi_Gaz)
@@ -37,7 +39,7 @@ function multiply(a, b){
 
 ## Experience
 
-[CV](https://MerzlikinNikita.github.io/rsschool-cv/cv) - My first project [(GitHub code)](https://github.com/MerzlikinNikita/rsschool-cv/tree/main)
+[CV](https://MerzlikinNikita.github.io/rsschool-cv/cv) - My first project [GitHub code](https://github.com/MerzlikinNikita/rsschool-cv/tree/main)
 
 > More projects are coming soon...
 
