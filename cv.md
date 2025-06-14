@@ -6,6 +6,6 @@
 
 - **Telegram:** [Nikita M](https://t.me/Polnyi_Gaz)
 - **VK:** [Nikita Merzlikin](https://vk.com/id240301013)
-- **Discord:** [Nikitos](discordapp.com/users/330999568437346304)
+- **Discord:** Nikitos (@MerzlikinNikita)
 - **GitHub:** [MerzlikinNikita](https://github.com/MerzlikinNikita)
 - **E-mail:** nikmerz2002@mail.ru
