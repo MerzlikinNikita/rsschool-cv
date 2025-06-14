@@ -26,3 +26,11 @@ Now my goal is to study and get my first job as a Front-end developer in 10 mont
 - Python (Fundamentals)
 - Git/GitHub
 - Figma
+
+## Code Example
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
