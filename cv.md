@@ -49,4 +49,4 @@ function multiply(a, b){
 
 - [_Python for beginners (completed)_](https://stepik.org/course/58852/syllabus)
 - [_Modern JavaScript Tutorial (in progress)_](https://learn.javascript.ru/)
-- [_RS School JS / Front-end Pre-school RU Course_](https://rs.school/courses/javascript-preschool-ru)
+- [_RS School JS / Front-end Pre-school RU Course (in progress)_](https://rs.school/courses/javascript-preschool-ru)
