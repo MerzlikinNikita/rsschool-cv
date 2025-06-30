@@ -1,0 +1,62 @@
+# rsschool-cv
+
+# Merzlikin Nikita
+
+![My profile foto](assets/img/my-profile-foto.jpg)
+
+## Contact Information
+
+- **Telegram:** [Nikita M](https://t.me/Polnyi_Gaz)
+- **VK:** [Nikita Merzlikin](https://vk.com/id240301013)
+- **GitHub:** [MerzlikinNikita](https://github.com/MerzlikinNikita)
+- **E-mail:** nikmerz2002@mail.ru
+- **Discord:** Nikitos (@MerzlikinNikita)
+
+## About Me
+
+Hi! I am 23 years old process control equipment engineer. I made a lot of progress in my career at my current job in a short period of time (about 2 years). But I don’t want to stop at what has been achieved, where there is no path for further professional growth and achieving financial freedom.
+
+I like to develop my skills, learn new things, communicate with people, work in a team, share my positive energy, be responsible for my self-development and I believe that there is no better field for all of this than programming.
+
+Now my goal is to study and get my first job as a Front-end developer in 10 months. And I will achieve my goal no matter what.
+
+## Skills
+
+- HTML
+- CSS
+- JavaScript (Fundamentals)
+- Python (Fundamentals)
+- Git/GitHub
+- Figma
+
+## Code Example
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
+
+## Experience
+
+[CV](https://MerzlikinNikita.github.io/rsschool-cv/cv) - My first project [GitHub code](https://github.com/MerzlikinNikita/rsschool-cv/tree/main)
+
+> More projects are coming soon...
+
+## Education
+
+**University:**
+
+- _Omsk State Technical University, Information Technology and Computer Systems_
+
+**Courses:**
+
+- [_Python for beginners (completed)_](https://stepik.org/course/58852/syllabus)
+- [_Fundamentals of JavaScript (completed)_](https://ru.hexlet.io/courses/js-basics)
+- [_Modern JavaScript Tutorial (in progress)_](https://learn.javascript.ru/)
+- [_RS School JS / Front-end Pre-school RU Course (in progress)_](https://rs.school/courses/javascript-preschool-ru)
+
+## Languages
+
+- English - Intermediate (B1)
+- Russian - Native
