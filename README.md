@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[Markdown & Git](https://MerzlikinNikita.github.io/rsschool-cv/cv)
+[HTML, CSS & Git Basics](https://MerzlikinNikita.github.io/rsschool-cv/)
