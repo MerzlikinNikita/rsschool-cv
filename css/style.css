@@ -213,3 +213,29 @@ h2 {
   height: 40px;
   margin-right: 10px;
 }
+
+.about__title {
+  margin: 0;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.about__text {
+  text-align: justify;
+}
+
+.about__subtitle {
+  margin: 0;
+  font-size: 20px;
+}
+
+.languages__list {
+  padding: 10px 0 0 18px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.code__title {
+  text-align: right;
+}
