@@ -119,3 +119,52 @@ h2 {
   font-size: 32px;
   font-weight: 400;
 }
+
+.main__inner {
+  display: flex;
+}
+
+.aside__box {
+  width: 30%;
+  background-color: rgb(40, 40, 40);
+}
+
+.aside__box-inner {
+  padding-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main__box {
+  width: 70%;
+}
+
+.main__box-inner {
+  padding-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.education__title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #fff;
+}
+
+.education__subtitle {
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+}
+
+.education__university {
+  color: #fff;
+  margin-bottom: 30px;
+}
