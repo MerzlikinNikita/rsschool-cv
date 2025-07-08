@@ -239,3 +239,42 @@ h2 {
 .code__title {
   text-align: right;
 }
+
+.projects__title {
+  text-align: right;
+}
+
+.projects__inner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.project__item {
+  position: relative;
+  width: 45%;
+  transition: 0.3s ease-in-out;
+}
+
+.project__item:hover {
+  transform: scale(1.1);
+}
+
+.project__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.project__img {
+  width: 100%;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+.project__title {
+  margin: 10px 0 0 0;
+}
