@@ -168,3 +168,23 @@ h2 {
   color: #fff;
   margin-bottom: 30px;
 }
+
+.courses__list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.courses__list-item {
+  margin-bottom: 10px;
+}
+
+.courses__list-link {
+  text-decoration: none;
+  color: rgb(0, 195, 255);
+  transition: 0.3s linear;
+}
+
+.courses__list-link:hover {
+  color: #fff;
+}
