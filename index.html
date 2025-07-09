@@ -1,9 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/icons/favicon.ico" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__photo">
+            <img
+              src="assets/img/my-profile-foto.jpg"
+              alt="My photo"
+              class="header__img"
+            />
+          </div>
+          <div class="header__text">
+            <nav class="header__nav">
+              <ul class="nav__list">
+                <li class="nav__list-item">
+                  <a href="#about" class="nav__list-link">About</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#education" class="nav__list-link">Education</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#code" class="nav__list-link">Code</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#skills" class="nav__list-link">Skills</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#projects" class="nav__list-link">Projects</a>
+                </li>
+                <li class="nav__list-item">
+                  <a href="#contacts" class="nav__list-link">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__title">
+              <h1 class="header__title-text">Merzlikin Nikita</h1>
+              <h2 class="header__title-subtext">Front-end developer</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="main__inner">
+          <aside class="aside__box">
+            <div class="aside__box-inner">
+              <section class="education" id="education">
+                <h2 class="education__title">Education</h2>
+                <div class="divider blue-divider"></div>
+                <h3 class="education__subtitle">University:</h3>
+                <p class="education__university">
+                  <i
+                    >Omsk State Technical University, Information Technology and
+                    Computer Systems</i
+                  >
+                </p>
+                <h3 class="education__subtitle">Courses:</h3>
+                <ul class="courses__list">
+                  <li class="courses__list-item">
+                    <a
+                      href="https://stepik.org/course/58852/syllabus"
+                      class="courses__list-link"
+                      target="_blank"
+                      >Python for beginners (completed)</a
+                    >
+                  </li>
+                  <li class="courses__list-item">
+                    <a
+                      href="https://ru.hexlet.io/courses/js-basics"
+                      class="courses__list-link"
+                      target="_blank"
+                      >Fundamentals of JavaScript (completed)</a
+                    >
+                  </li>
+                  <li class="courses__list-item">
+                    <a
+                      href="https://learn.javascript.ru"
+                      class="courses__list-link"
+                      target="_blank"
+                      >Modern JavaScript Tutorial (in progress)</a
+                    >
+                  </li>
+                  <li class="courses__list-item">
+                    <a
+                      href="https://rs.school/courses/javascript-preschool-ru"
+                      class="courses__list-link"
+                      target="_blank"
+                      >RS School JS / Front-end Pre-school RU Course (in
+                      progress)</a
+                    >
+                  </li>
+                </ul>
+              </section>
+
+              <section class="skills" id="skills">
+                <h2 class="skills__title">Skills</h2>
+                <div class="divider blue-divider"></div>
+                <ul class="skills__list">
+                  <li class="skills__list-item">
+                    <img
+                      src="assets/icons/html-icon.svg"
+                      alt="HTML"
+                      class="skill__item-icon"
+                    />
+                    <span class="skill__item-text">HTML</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <img
+                      src="assets/icons/css-icon.svg"
+                      alt="CSS"
+                      class="skill__item-icon"
+                    />
+                    <span class="skill__item-text">CSS</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <img
+                      src="assets/icons/javascript-icon.svg"
+                      alt="JavaScript"
+                      class="skill__item-icon"
+                    />
+                    <span class="skill__item-text"
+                      >JavaScript (Fundamentals)</span
+                    >
+                  </li>
+                  <li class="skills__list-item">
+                    <img
+                      src="assets/icons/python-icon.svg"
+                      alt="Python"
+                      class="skill__item-icon"
+                    />
+                    <span class="skill__item-text">Python (Fundamentals)</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <svg
+                      class="skill__item-icon"
+                      enable-background="new 0 0 24 24"
+                      height="512"
+                      viewBox="0 0 24 24"
+                      width="512"
+                      fill="#fff"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"
+                      />
+                    </svg>
+                    <span class="skill__item-text">Git / GitHub</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <img
+                      src="assets/icons/figma-icon.svg"
+                      alt="Figma"
+                      class="skill__item-icon"
+                    />
+                    <span class="skill__item-text">Figma</span>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </aside>
+
+          <div class="main__box">
+            <div class="main__box-inner">
+              <section class="about" id="about">
+                <h2 class="about__title">About me</h2>
+                <div class="divider black-divider"></div>
+                <p class="about__text">
+                  Hi! I am 23 years old process control equipment engineer. I
+                  made a lot of progress in my career at my current job in a
+                  short period of time (about 2 years). But I don’t want to stop
+                  at what has been achieved, where there is no path for further
+                  professional growth and achieving financial freedom.<br /><br />
+                  I like to develop my skills, learn new things, communicate
+                  with people, work in a team, share my positive energy, be
+                  responsible for my self-development and I believe that there
+                  is no better field for all of this than programming.<br /><br />Now
+                  my goal is to study and get my first job as a Front-end
+                  developer in 10 months. And I will achieve my goal no matter
+                  what.
+                </p>
+                <article class="about__languages">
+                  <h3 class="about__subtitle">Languages:</h3>
+                  <ul class="languages__list">
+                    <li class="languages__list-item">Russian (Native)</li>
+                    <li class="languages__list-item">
+                      English (Intermediate - B1)
+                    </li>
+                  </ul>
+                </article>
+              </section>
+
+              <section class="code" id="code">
+                <h2 class="code__title">Code example</h2>
+                <div class="divider black-divider"></div>
+                <pre class="pre">
+                  <code class="code__text">function multiply(a, b) {
+                    return a * b;
+                  }</code>
+                </pre>
+              </section>
+
+              <section class="projects" id="projects">
+                <h2 class="projects__title">Projects</h2>
+                <div class="divider black-divider"></div>
+                <div class="projects__inner">
+                  <div class="project__item">
+                    <a
+                      href="https://MerzlikinNikita.github.io/rsschool-cv/"
+                      class="project__link"
+                      target="_blank"
+                    >
+                      <img
+                        src="assets/img/project1.jpg"
+                        alt="CV-project"
+                        class="project__img"
+                      />
+                      <h3 class="project__title">CV</h3>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <section class="contacts" id="contacts">
+            <div class="contacts__inner">
+              <h2 class="contacts__title">Contacts</h2>
+              <div class="divider blue-divider"></div>
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <img
+                    src="assets/icons/telegram-icon.svg"
+                    alt="Telegram"
+                    class="contacts__item-icon"
+                  />
+                  <a
+                    href="https://t.me/Polnyi_Gaz"
+                    class="contacts__item-link"
+                    target="_blank"
+                    >Telegram</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <img
+                    src="assets/icons/vk-icon.svg"
+                    alt="VK"
+                    class="contacts__item-icon"
+                  />
+                  <a
+                    href="https://vk.com/id240301013"
+                    class="contacts__item-link"
+                    target="_blank"
+                    >VK</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <svg
+                    class="contacts__item-icon"
+                    enable-background="new 0 0 24 24"
+                    height="512"
+                    viewBox="0 0 24 24"
+                    width="512"
+                    fill="#fff"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"
+                    />
+                  </svg>
+                  <a
+                    href="https://github.com/MerzlikinNikita"
+                    class="contacts__item-link"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <img
+                    src="assets/icons/mail-icon.svg"
+                    alt="E-mail"
+                    class="contacts__item-icon"
+                  />
+                  <a
+                    href="mailto:nikmerz2002@mail.ru"
+                    class="contacts__item-link"
+                    target="_blank"
+                    >E-mail</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <img
+                    src="assets/icons/discord-icon.svg"
+                    alt="Discord"
+                    class="contacts__item-icon"
+                  />
+                  <span class="contacts__item-text"
+                    >Nikitos (@MerzlikinNikita)</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="footer__content">
+            <div class="footer__content-inner">
+              <a
+                href="https://github.com/MerzlikinNikita"
+                class="footer__link"
+                target="_blank"
+                ><img
+                  src="assets/icons/github-icon.svg"
+                  alt=""
+                  class="footer__logo-git"
+              /></a>
+
+              <a
+                href="https://rs.school/courses/javascript-ru"
+                class="footer__link"
+                target="_blank"
+                ><img
+                  src="assets/icons/rs_school_js.svg"
+                  alt="RSS Logo"
+                  class="footer__logo-rss"
+              /></a>
+              <h3 class="footer__text">Created in <b>2025</b></h3>
+            </div>
+          </section>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
